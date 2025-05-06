@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
     inputs:
       make_release:
-        description: 'Build and release Sultan Kernel for gs201'
+        description: 'Build and release Suntan Kernel for gs101'
         required: true
         type: boolean
         default: false
 
 jobs:
   build-kernel:
-    uses: ./.github/workflows/build-kernel-gs201.yml
+    uses: ./.github/workflows/build-kernel-gs101.yml
     secrets: inherit
