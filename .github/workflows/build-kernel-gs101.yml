@@ -37,7 +37,7 @@ jobs:
           echo "Cloning AnyKernel3 and other dependencies..."
     
           # Define the branch names using the matrix values
-          ANYKERNEL_BRANCH="android_kernel_google_gs101"
+          ANYKERNEL_BRANCH="android-gs-raviole-6.1-android15-qpr2"
           SUSFS_BRANCH="gki-android13-5.10"
 
           # Debug print the branches
